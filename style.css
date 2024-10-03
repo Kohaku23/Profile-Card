@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #EFF3BF;
+    font-family: "Roboto Flex", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Card */
+
+.card-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 600px;
+    border-radius: 50px;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url("/assets/images/Designer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 720px;
+}
+
+/* Card */
+
+
+/* Avatar */
+
+.avatar {
+    padding: 20px 0px;
+    margin-bottom: 60px;
+}
+
+
+
+/* Avatar */
+
+
+/* Name */
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.name h2 {
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 5px 0px;
+}
+
+.name h5 {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+/* Name */
+
+
+/* Social media icons */
+
+.socmed-icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 40px 0px;
+}
+
+/* Social media icons */
+
+
+/* description */
+
+.description {
+    padding: 0px 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+
+
+/* description */
+
+
+/* buttons */
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.btn {
+    margin: 10px 0px;
+    background: none;
+    border: 1px solid #838383;
+    border-radius: 999px;
+    color: #838383;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px;
+    width: 191px;
+    transition: 0.5s;
+}
+
+
+.btn:hover {
+    border: 0.3px solid rgba(112, 112, 112, 0.089);
+    background-color: #DF3F8C;
+    color: white;
+}
+
+/* buttons */
